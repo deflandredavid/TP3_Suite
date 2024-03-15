@@ -9,11 +9,11 @@ public class Note{
         this.matiere = matiere;
     }
 
-    public getNote(){
+    public int getNote(){
         return this.note;
     }
 
-    public getMatiere(){
+    public Matiere getMatiere(){
         return this.matiere;
     }
 }
